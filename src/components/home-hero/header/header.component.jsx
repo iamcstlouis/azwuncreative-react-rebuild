@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import './header.styles.scss'
 
@@ -47,24 +48,32 @@ const Header = () => {
                     <div className='desktop-links'>
                         <ul>
                             <li>
-                                <Link to='/'>
+                                <NavLink
+                                    exact
+                                    to='/'>
                                     Home
-                                </Link>
+                                </NavLink>
                             </li>
                             <li>
-                                <Link to='/work'>
+                                <NavLink
+                                    exact
+                                    to='/work'>
                                     Work
-                                </Link>
+                                </NavLink>
                             </li>
                             <li>
-                                <Link to='/about'>
+                                <NavLink
+                                    exact
+                                    to='/about'>
                                     About
-                                </Link>
+                                </NavLink>
                             </li>
                             <li>
-                                <Link to='contact'>
+                                <NavLink
+                                    exact
+                                    to='contact'>
                                     Contact
-                                </Link>
+                                </NavLink>
                             </li>
                         </ul>
                     </div >

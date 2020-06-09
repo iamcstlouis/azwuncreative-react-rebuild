@@ -133,7 +133,7 @@
                                     color: #2D2D2D;
                                 }
 
-                                &.router-link-exact-active {
+                                &.active {
                                     color: #2D2D2D;
                                 }
                             }
@@ -145,7 +145,7 @@
     }
 
     a {
-        &.router-link-exact-active {
+        &.active {
             color: #FF1145;
         }
     }
@@ -181,7 +181,7 @@
                                 background: #2D2D2D;
                             }
 
-                            &.router-link-exact-active {
+                            &.active {
                                 background: #2D2D2D;
                             }
                         }
