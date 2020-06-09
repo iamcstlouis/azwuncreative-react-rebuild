@@ -1,7 +1,7 @@
 .azwun-btn {
     display: inline-block;
     margin-top: 2rem;
-    @include transition-3s;
+    transition: all 0.3s ease-in-out;
 
     @media screen and (min-width: 1024px) {
         margin-top: 3rem;
@@ -20,42 +20,42 @@
     }
 
     &--accent-border {
-        border: solid $clr-accent 3px;
+        border: solid #FF1145 3px;
 
         &:hover {
-            background: $clr-accent;
-            border: solid $clr-link-accent-background-border 3px;
+            background: #FF1145;
+            border: solid #FF698A 3px;
         }
     }
 
     &--accent-background {
-        border: solid $clr-link-accent-background-border 3px;
-        background: $clr-link-accent-background;
+        border: solid #FF698A 3px;
+        background: #FF1145;
 
         &:hover {
-            border: solid $clr-accent 3px;
+            border: solid #FF1145 3px;
             background: none;
 
             a,
             span {
-                color: $clr-drk-grey;
+                color: #343434;
             }
         }
     }
 
     .azwun-btn__txt {
         font-size: 16px;
-        @include transition-3s;
+        transition: all 0.3s ease-in-out;
 
         &--white {
-            color: $clr-white;
+            color: #FFF;
         }
 
         &--dark {
-            color: $clr-drk-grey;
+            color: #343434;
 
             &:hover {
-                color: $clr-white;
+                color: #FFF;
             }
         }
 
