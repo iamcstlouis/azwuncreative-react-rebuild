@@ -1,0 +1,68 @@
+.azwun-btn {
+    display: inline-block;
+    margin-top: 2rem;
+    @include transition-3s;
+
+    @media screen and (min-width: 1024px) {
+        margin-top: 3rem;
+    }
+
+    a,
+    span {
+        display: block;
+        font-family: 'Exo 2';
+        padding: .5rem 2.5rem;
+        letter-spacing: 1px;
+
+        @media screen and (min-width: 1024px) {
+            padding: 1rem 4.5rem;
+        }
+    }
+
+    &--accent-border {
+        border: solid $clr-accent 3px;
+
+        &:hover {
+            background: $clr-accent;
+            border: solid $clr-link-accent-background-border 3px;
+        }
+    }
+
+    &--accent-background {
+        border: solid $clr-link-accent-background-border 3px;
+        background: $clr-link-accent-background;
+
+        &:hover {
+            border: solid $clr-accent 3px;
+            background: none;
+
+            a,
+            span {
+                color: $clr-drk-grey;
+            }
+        }
+    }
+
+    .azwun-btn__txt {
+        font-size: 16px;
+        @include transition-3s;
+
+        &--white {
+            color: $clr-white;
+        }
+
+        &--dark {
+            color: $clr-drk-grey;
+
+            &:hover {
+                color: $clr-white;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            font-size: 18px;
+        }
+    }
+}
+
+// *** Azwun Form Submit Button

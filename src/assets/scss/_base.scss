@@ -1,0 +1,121 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    line-height: 2;
+    overflow-x: hidden;
+    background: $clr-white;
+
+    @media screen and (max-width: 475px) {
+
+        .container {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+    }
+
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    p {
+        font-size: 16px;
+        font-family: 'Exo 2',
+            sans-serif;
+        font-weight: 400;
+        color: $clr-mid-grey;
+        line-height: 2;
+    }
+
+    .under-nav {
+        margin-top: 6.8rem;
+    }
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    .site-content {
+        flex: 1;
+    }
+
+    a {
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: none !important;
+        }
+
+        // &:focus {
+        //     outline: 1.5px solid $clr-accent;
+        //     // border: 1.5px solid $clr-accent;
+        //     box-shadow: 0 0 3px $clr-accent;
+        // }
+    }
+
+    // button {
+    //     &:focus {
+    //         outline: none !important;
+    //         border: 1.5px solid $clr-accent;
+    //         box-shadow: 0 0 3px $clr-accent;
+    //     }
+    // }
+}
+
+a {
+    font-family: 'Exo 2',
+        sans-serif;
+    font-weight: 900;
+
+}
+
+h1 {
+    font-family: 'Exo 2',
+        sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: $clr-drk-grey;
+    letter-spacing: 2px;
+
+    span {
+        color: $clr-accent;
+    }
+
+    @media screen and (min-width: 1024px) {
+        font-size: 50px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 60px;
+    }
+}
+
+h2 {
+    font-family: 'Exo 2',
+        sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: $clr-mid-grey;
+    letter-spacing: 2px;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 32px;
+    }
+}
+
+h3 {
+    font-family: 'Exo 2',
+        sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: $clr-mid-grey;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 32px;
+    }
+}
