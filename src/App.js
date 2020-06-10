@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import './App.scss';
 
 import Homepage from './pages/home/homepage/homepage.component';
-import Header from './components/home-hero/header/header.component';
+import Header from './components/header/header.component';
 
 function App() {
   return (

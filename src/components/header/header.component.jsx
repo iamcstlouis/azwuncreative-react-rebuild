@@ -12,7 +12,7 @@ const Header = () => {
                     <div className='logo-wrapper'>
                         <Link to='/'>
                             <img
-                                src={require('../../../assets/imgs/global/azwun-logo-mark2.svg')}
+                                src={require('../../assets/imgs/global/azwun-logo-mark2.svg')}
                                 className='logo'
                                 alt='Azwun Logo'
                             />

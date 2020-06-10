@@ -15,8 +15,7 @@ const HomeHero = () => {
                         <Link
                             className="azwun-btn__txt azwun-btn__txt--white"
                             to='/contact'
-                        >
-                            Get A Quote
+                        >Get A Quote
                         </Link>
                     </div>
                 </div>
