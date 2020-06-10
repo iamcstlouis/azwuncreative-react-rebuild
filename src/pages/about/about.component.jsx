@@ -24,7 +24,7 @@ const About = () => {
                             </p>
 
                             <div className="azwun-btn azwun-btn--accent-border" data-aos="zoom-in">
-                                <Link to='/contact' className="azwun-btn__txt azwun-btn__txt--dark">
+                                <Link to='/work' className="azwun-btn__txt azwun-btn__txt--dark">
                                     Work With Us
                                 </Link>
                             </div>
