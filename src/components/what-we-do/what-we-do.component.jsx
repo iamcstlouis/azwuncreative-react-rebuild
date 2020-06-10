@@ -9,8 +9,7 @@ const WhatWeDo = () => {
             <div className='container'>
                 <div className='content-wrapper'>
                     <h1 data-aos='fade-left'>
-                        What we
-          <span>do.</span>
+                        What we <span>do.</span>
                     </h1>
 
                     <div className='skills'>
