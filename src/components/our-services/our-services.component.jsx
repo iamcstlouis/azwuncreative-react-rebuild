@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
+import OUR_SERVICES_DATA from './our-services.data';
 
 class OurServices extends Component {
-    // constructor() {
-    //     super();
+    constructor(props) {
+        super(props);
 
-    // }
+        this.state = {
+            services: OUR_SERVICES_DATA
+        }
+    }
 
     render() {
+        const { services } = this.state;
         return (
             <section id='our-services' className='our-services'>
                 <div className='container'>
@@ -63,7 +68,7 @@ class OurServices extends Component {
                                 <div className='img-wrapper'>
                                     <img
                                         src={require('../../assets/imgs/home/iphone-x.png')}
-                                        alt='image of iPhone'
+                                        alt='iPhone'
                                         data-aos='fade-right'
                                     />
                                 </div>
