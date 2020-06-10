@@ -10,7 +10,6 @@ const Header = () => {
             <div className='container'>
                 <div className='logo'>
                     <div className='logo-wrapper'>
-                        {/* <router-link to='/' exact v-on:click='closeMenu()'> */}
                         <Link to='/'>
                             <img
                                 src={require('../../../assets/imgs/global/azwun-logo-mark2.svg')}
@@ -21,7 +20,6 @@ const Header = () => {
                     </div>
                 </div>
 
-                {/* <div className='menu-toggler' v-on:click='toggleState()'> */}
                 <div className='menu-toggler'>
                     <div className='hamburger-btn'>
                         <div className='bar bar__top'></div>
@@ -35,14 +33,37 @@ const Header = () => {
                         <div className='container'>
                             <ul>
                                 <li>
-                                    Home
-                {/* // <router-link : {{ obj.link }}</router-link> */}
-                                    {/* <Link></Link> */}
+                                    <NavLink
+                                        exact
+                                        to='/'>
+                                        Home
+                                </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink
+                                        exact
+                                        to='/work'>
+                                        Work
+                                </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink
+                                        exact
+                                        to='/about'>
+                                        About
+                                </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink
+                                        exact
+                                        to='contact'>
+                                        Contact
+                                </NavLink>
                                 </li>
                             </ul>
                         </div>
-                    </div >
-                </div >
+                    </div>
+                </div>
 
                 <div className='desktop-menu'>
                     <div className='desktop-links'>
@@ -76,10 +97,10 @@ const Header = () => {
                                 </NavLink>
                             </li>
                         </ul>
-                    </div >
-                </div >
-            </div >
-        </div >
+                    </div>
+                </div>
+            </div>
+        </div>
     );
 }
 
