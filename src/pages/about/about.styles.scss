@@ -1,0 +1,70 @@
+.about-azwun {
+    background-image: url("../../assets/imgs/about/about_bg_logo.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+
+    @media screen and (min-width: 768px) {
+        background-size: contain;
+        height: 600px;
+    }
+
+    .container {
+        @media screen and (min-width: 992px) {
+            margin: 15rem auto 10rem auto;
+        }
+
+        .content-wrapper {
+            @media screen and (min-width: 768px) {
+                text-align: center;
+            }
+
+            @media screen and (min-width: 992px) {
+                width: 85%;
+                margin: 0 auto;
+            }
+
+            h1 {
+                font-size: 40px;
+                font-weight: 700;
+                padding: 7.2rem 0 0 0;
+            }
+
+            .copy-section {
+                .content-wrapper {
+                    p {
+                        margin-top: 2rem;
+
+                        span {
+                            display: block;
+                            margin-top: 4rem;
+
+                            &.txt-bold {
+                                display: inline;
+                                font-weight: 900;
+                                color: #343434;
+                                margin: 0;
+                            }
+                        }
+
+                        @media screen and (min-width: 768px) {
+                            margin-top: 3rem;
+
+                            span {
+                                display: inline;
+                            }
+                        }
+                    }
+
+                    .azwun-btn {
+                        background: #fff;
+
+                        &:hover {
+                            background: #FF1145;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
