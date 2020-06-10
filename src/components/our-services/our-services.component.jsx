@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import OUR_SERVICES_DATA from './our-services.data';
 
+import './our-services.styles.scss';
+
 class OurServices extends Component {
     constructor(props) {
         super(props);
@@ -17,8 +19,7 @@ class OurServices extends Component {
                 <div className='container'>
                     <div className='content-wrapper'>
                         <h1 data-aos='fade-right'>
-                            Our
-                            <span>services.</span>
+                            Our <span>services.</span>
                         </h1>
 
                         <div className='flex-container'>

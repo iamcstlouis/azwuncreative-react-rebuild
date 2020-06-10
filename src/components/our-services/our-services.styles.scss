@@ -1,0 +1,197 @@
+.our-services {
+    margin-top: 4rem;
+
+    @media screen and (min-width: 1024px) {
+        margin-top: 7rem;
+
+        &:before {
+            content: "";
+            display: block;
+            height: 2px;
+            width: 70%;
+            margin: 0 auto;
+            background: #DDD;
+        }
+    }
+
+    .container {
+        .content-wrapper {
+            width: 85%;
+            margin: 0 auto;
+
+            h1 {
+                font-size: 40px;
+                font-weight: 900;
+                text-align: center;
+                padding: 7.2rem 0 0 0;
+            }
+
+            .flex-container {
+                @media screen and (min-width: 1024px) {
+                    display: flex;
+                    flex-direction: row-reverse;
+                    justify-content: space-between;
+                }
+
+                .services {
+                    @media screen and (min-width: 1024px) {
+                        flex: 0 0 70%;
+
+                        &__group {
+                            .content-wrapper {
+                                width: 100%;
+                                margin-top: 13rem;
+                            }
+
+                            &--1 {
+                                .content-wrapper {
+                                    &:nth-child(2) {
+                                        margin-left: 5rem;
+                                    }
+                                }
+
+                                .content-wrapper {
+                                    &:nth-child(3) {
+                                        margin-left: 10rem;
+                                    }
+                                }
+                            }
+
+                            &--2 {
+                                .content-wrapper {
+                                    &:nth-child(1) {
+                                        margin-left: 5rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .service {
+                        margin-top: 8rem;
+
+                        @media screen and (min-width: 1024px) {
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                        }
+
+                        .img-wrapper {
+                            width: 11.7rem;
+                            margin: 0 auto;
+
+                            @media screen and (min-width: 1024px) {
+                                margin-right: 0;
+                                flex: 0 0 20%;
+                            }
+                        }
+
+                        .copy-wrapper {
+                            text-align: center;
+
+                            @media screen and (min-width: 768px) {
+                                max-width: 42.5rem;
+                                margin: 0 auto;
+                            }
+
+                            @media screen and (min-width: 1024px) {
+                                position: relative;
+                                text-align: left;
+                                padding-left: 8rem;
+                                width: 350px;
+                                margin-left: 0;
+
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    left: 4rem;
+                                    display: block;
+                                    width: 90%;
+                                    height: 100%;
+                                    border-left: solid #DDD 2px;
+                                    top: 50%;
+                                    transform: translateY(-50%);
+                                    z-index: -1;
+                                }
+                            }
+
+                            h2 {
+                                position: relative;
+                                font-size: 25px;
+                                font-weight: 900;
+                                margin-top: 7rem;
+
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    top: -6rem;
+                                    display: block;
+                                    width: 90%;
+                                    height: 100%;
+                                    border-bottom: solid #DDD 2px;
+                                    left: 50%;
+                                    transform: translateX(-50%);
+                                    z-index: -1;
+
+                                    @media screen and (min-width: 1024px) {
+                                        display: none;
+                                    }
+                                }
+
+                                @media screen and (min-width: 768px) {
+                                    font-size: 32px;
+                                }
+
+                                @media screen and (min-width: 1024px) {
+                                    font-size: 22px;
+                                    margin-top: 0;
+                                }
+                            }
+
+                            p {
+                                margin-top: 1rem;
+                                font-size: 16px;
+
+                                @media screen and (min-width: 768px) {
+                                    font-size: 20px;
+                                }
+
+                                @media screen and (min-width: 1024px) {
+                                    font-size: 16px;
+                                    margin-bottom: 0;
+                                }
+                            }
+                        }
+                    }
+
+                    .device-img {
+                        margin-top: 8rem;
+
+                        .img-wrapper {
+                            max-width: 200px;
+                            margin: 0 auto;
+
+                            @media screen and (min-width: 768px) {
+                                max-width: 300px;
+                            }
+                        }
+
+                        @media screen and (min-width: 1024px) {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .section-img-desktop {
+                display: none;
+
+                @media screen and (min-width: 1024px) {
+                    display: block;
+                    align-self: center;
+                    flex: 0 0 30%;
+                }
+            }
+        }
+    }
+}
