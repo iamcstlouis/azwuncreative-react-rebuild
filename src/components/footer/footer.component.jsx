@@ -9,6 +9,14 @@ const Footer = () => {
         return new Date().getFullYear();
     }
 
+    const scrollToTop = () => {
+        window.scroll({
+            top: 0,
+            left: 0,
+            behavior: 'smooth'
+        })
+    }
+
     return (
         <section id='footer' className='footer'>
             <div className='container'>
@@ -16,7 +24,7 @@ const Footer = () => {
                     <div className='link-wrapper'>
                         <button
                             className='back-to-top'
-                            v-if='$route.meta.showBackToTopBtn'
+                            onClick={() => (scrollToTop())}
                         >
                             Back to top
                             </button>
