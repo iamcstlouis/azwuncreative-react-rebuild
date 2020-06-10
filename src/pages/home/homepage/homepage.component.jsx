@@ -1,6 +1,7 @@
 import React from 'react';
 import HomeHero from '../../../components/home-hero/home-hero.component';
 import WhatWeDo from '../../../components/what-we-do/what-we-do.component';
+import OurServices from '../../../components/our-services/our-services.component';
 
 
 const Homepage = () => {
@@ -8,6 +9,7 @@ const Homepage = () => {
         <section>
             <HomeHero />
             <WhatWeDo />
+            <OurServices />
         </section>
     );
 }

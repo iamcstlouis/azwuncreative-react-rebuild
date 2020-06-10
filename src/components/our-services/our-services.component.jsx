@@ -1,77 +1,77 @@
 import React, { Component } from 'react';
 
 class OurServices extends Component {
-    constructor() {
-        super();
+    // constructor() {
+    //     super();
 
-    }
+    // }
 
     render() {
         return (
-            <section id='our-services' class='our-services'>
+            <section id='our-services' className='our-services'>
                 <div className='container'>
-                    <div class='content-wrapper'>
+                    <div className='content-wrapper'>
                         <h1 data-aos='fade-right'>
                             Our
-          <span>services.</span>
+                            <span>services.</span>
                         </h1>
 
-                        <div class='flex-container'>
-                            <div class='services'>
-                                <div class='services__group services__group--1'>
-                                    <div class='content-wrapper' v-for='(obj, key) in services1' :key='key'>
-                <div class='service'>
-                                        <div class='img-wrapper'>
-                                            <img :src='obj.serviceIcn' :alt='obj.alt' data-aos='fade-left' />
-                  </div>
+                        <div className='flex-container'>
+                            <div className='services'>
+                                <div className='services__group services__group--1'>
+                                    <div className='content-wrapper'>
+                                        <div className='service'>
+                                            <div className='img-wrapper'>
+                                                {/* <img data-aos='fade-left' /> */}
+                                            </div>
 
-                                        <div class='copy-wrapper'>
-                                            <h2 data-aos='fade-right'>{{ obj.serviceHdr }}</h2>
-                                            <p data-aos='fade-left'>{{ obj.serviceExcerpt }}</p>
+                                            <div className='copy-wrapper'>
+                                                <h2 data-aos='fade-right'>{}</h2>
+                                                <p data-aos='fade-left'>{}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className='device-img'>
+                                    <div className='img-wrapper'>
+                                        <img
+                                            src={require('../../assets/imgs/home/iphone-x.png')}
+                                            alt='iPhone'
+                                            data-aos='zoom-in'
+                                        />
+                                    </div>
+                                </div>
+
+                                <div className='services__group services__group--2'>
+                                    <div className='content-wrapper' v-for='(obj, two) in services2'>
+                                        <div className='service'>
+                                            <div className='img-wrapper'>
+                                                {/* <img data-aos='fade-right' /> */}
+                                            </div>
+
+                                            <div className='copy-wrapper'>
+                                                <h2 data-aos='fade-left'>{}</h2>
+                                                <p data-aos='fade-right'>{}</p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class='device-img'>
-                                <div class='img-wrapper'>
+                            <div className='section-img-desktop'>
+                                <div className='img-wrapper'>
                                     <img
-                                        src='./../assets/imgs/home/iphone-x.png'
+                                        src={require('../../assets/imgs/home/iphone-x.png')}
                                         alt='image of iPhone'
-                                        data-aos='zoom-in'
+                                        data-aos='fade-right'
                                     />
                                 </div>
                             </div>
-
-                            <div class='services__group services__group--2'>
-                                <div class='content-wrapper' v-for='(obj, two) in services2' :key='two'>
-                <div class='service'>
-                                    <div class='img-wrapper'>
-                                        <img :src='obj.serviceIcn' :alt='obj.alt' data-aos='fade-right' />
-                  </div>
-
-                                    <div class='copy-wrapper'>
-                                        <h2 data-aos='fade-left'>{{ obj.serviceHdr }}</h2>
-                                        <p data-aos='fade-right'>{{ obj.serviceExcerpt }}</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class='section-img-desktop'>
-                        <div class='img-wrapper'>
-                            <img
-                                src='./../assets/imgs/home/iphone-x.png'
-                                alt='image of iPhone'
-                                data-aos='fade-right'
-                            />
                         </div>
                     </div>
                 </div>
-      </div>
-    </b - container >
-  </section >
+            </section>
         );
     }
 }
