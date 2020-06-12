@@ -47,17 +47,17 @@ const Footer = () => {
                         <div className='socials'>
                             <div className='content-wrapper'>
                                 <div className='icn icn--facebook'>
-                                    <a href='https://www.facebook.com/Azwun-Creative-105284587859335/' target='_blank'>
+                                    <a href='https://www.facebook.com/Azwun-Creative-105284587859335/' rel="noopener noreferrer"target='_blank'>
                                         <i className='fab fa-facebook-f'></i>
                                     </a>
                                 </div>
                                 <div className='icn icn--twitter'>
-                                    <a href='https://twitter.com/azwuncreative' target='_blank'>
+                                    <a href='https://twitter.com/azwuncreative' rel="noopener noreferrer" target='_blank'>
                                         <i className='fab fa-twitter'></i>
                                     </a>
                                 </div>
                                 <div className='icn icn--instagram'>
-                                    <a href='https://www.instagram.com/azwuncreative/' target='_blank'>
+                                    <a href='https://www.instagram.com/azwuncreative/' rel="noopener noreferrer" target='_blank'>
                                         <i className='fab fa-instagram'></i>
                                     </a>
                                 </div>
