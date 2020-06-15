@@ -4,14 +4,12 @@ import './our-values.styles.scss'
 function SingleValue({ valueHdr, valueExcerpt }) {
     
     return (
-
-
         <li>
             <div className='icn-wrapper'>
                 <div className='icn'>
                     <img
                         src={require('../../assets/imgs/home/icn_tick.png')}
-                        alt='image of iPhone'
+                        alt='iPhone'
                         data-aos='fade-right'
                     />
                 </div>
