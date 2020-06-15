@@ -38,7 +38,8 @@ import './our-services.styles.scss'
 
 const Service = ({ serviceIcn, alt, serviceHdr, serviceExcerpt }) => {
     return (
-        <div className='service'>
+        <div className='content-wrapper'>
+            <div className='service'>
                 <div className='img-wrapper'>
                     <img src={serviceIcn} alt={alt} data-aos='fade-left' />
                 </div>
@@ -48,6 +49,7 @@ const Service = ({ serviceIcn, alt, serviceHdr, serviceExcerpt }) => {
                     <p data-aos='fade-left'>{serviceExcerpt}</p>
                 </div>
             </div>
+        </div>
     );
 }
 

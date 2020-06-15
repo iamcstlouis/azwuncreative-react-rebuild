@@ -98,9 +98,8 @@ const OurServicesData = () => {
     return (
         <div>
             {services.map(service => (
-                <div className='content-wrapper'>
+                
                     <Service serviceIcn={service.serviceIcn} alt={service.alt} serviceHdr={service.serviceHdr} serviceExcerpt={service.serviceExcerpt} key={service.id} />
-                </div>
             ))}
         </div>
     );
