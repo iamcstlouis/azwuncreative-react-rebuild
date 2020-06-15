@@ -98,8 +98,7 @@ const OurServicesData = () => {
     return (
         <div>
             {services.map(service => (
-                
-                    <Service serviceIcn={service.serviceIcn} alt={service.alt} serviceHdr={service.serviceHdr} serviceExcerpt={service.serviceExcerpt} key={service.id} />
+                <Service serviceIcn={service.serviceIcn} alt={service.alt} serviceHdr={service.serviceHdr} serviceExcerpt={service.serviceExcerpt} key={service.id} />
             ))}
         </div>
     );
