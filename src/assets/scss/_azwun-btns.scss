@@ -4,8 +4,7 @@
 .azwun-btn {
     display: inline-block;
     margin-top: 2rem;
-    // @include transition-3s;
-    transition: all .3s !important;
+    @include transition-3s;
 
     @media screen and (min-width: 1024px) {
         margin-top: 3rem;
@@ -25,6 +24,7 @@
 
     &--accent-border {
         border: solid $clr-accent 3px;
+        @include transition-3s;
 
         &:hover {
             background: $clr-accent;
@@ -35,6 +35,7 @@
     &--accent-background {
         border: solid $clr-link-accent-background-border 3px;
         background: $clr-link-accent-background;
+        @include transition-3s;
 
         &:hover {
             border: solid $clr-accent 3px;
@@ -49,8 +50,7 @@
 
     .azwun-btn__txt {
         font-size: 16px;
-        // @include transition-3s;
-        transition: all .3s !important;
+        @include transition-3s;
 
         &--white {
             color: $clr-white;

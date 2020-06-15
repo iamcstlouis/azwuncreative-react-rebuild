@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 import './home-hero.styles.scss';
-import './../../assets/scss/_azwun-btns.scss'
 
 const HomeHero = () => {
     return (

@@ -5,6 +5,7 @@ import OurServices from '../../../components/our-services/our-services.component
 import OurValues from '../../../components/our-values/our-values.component';
 import OurApproach from '../../../components/our-approach/our-approach.component';
 
+import '../../../assets/scss/_azwun-btns.scss';
 
 const Homepage = () => {
     return (
