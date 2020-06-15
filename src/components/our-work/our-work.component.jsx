@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react';
+import ProjectsData from './projects-list'
 
 import './our-work.styles.scss'
 
@@ -13,18 +13,7 @@ const OurWork = () => {
                     </h1>
 
                     <div className='projects'>
-                        <div className='project'>
-                            <Link to='/contact' className='project-overlay' target='_blank'>
-                                <div className='img-wrapper'>
-                                    {/* <img data-aos='fade-up' /> */}
-                                </div>
-
-                                <div className='copy-wrapper'>
-                                    <h2 className='project-name' data-aos='fade-left'></h2>
-                                    <p className='project-desc' data-aos='fade-right'></p>
-                                </div>
-                            </Link>
-                        </div>
+                        <ProjectsData />
                     </div>
                 </div>
             </div>

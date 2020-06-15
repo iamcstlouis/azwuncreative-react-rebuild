@@ -4,7 +4,8 @@ import SingleValue from './single-value.component'
 
 const OurValuesList = () => {
 
-    const [values, setValue] = useState([
+    // const [values, setValue] = useState([
+    const [values] = useState([
 
         {
             value: "Efficiency",

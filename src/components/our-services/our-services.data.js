@@ -52,7 +52,8 @@ import React, { useState } from 'react';
 import Service from './group-1-service.component';
 
 const OurServicesData = () => {
-    const [services, setServices] = useState([
+    // const [services, setServices] = useState([
+    const [services] = useState([
         {
             serviceIcn: require('../../assets/imgs/home/icn_ux-ui_2.svg'),
             alt: 'Azwun Creative UI/UX Icon',

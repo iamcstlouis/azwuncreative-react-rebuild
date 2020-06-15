@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import SingleCard from './single-card'
 
 const Cards = () => {
-    const [cards, setCards] = useState ([
+    // const [cards, setCards] = useState ([
+    const [cards] = useState ([
       {
         icn: require("../../assets/imgs/home/icn_design_pink.png"),
         alt: "Azwun design icon",
