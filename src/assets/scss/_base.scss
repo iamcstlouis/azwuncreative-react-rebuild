@@ -1,3 +1,5 @@
+@import './typography';
+
 html {
     font-size: 62.5%;
 }
@@ -5,7 +7,9 @@ html {
 body {
     line-height: 2;
     overflow-x: hidden;
-    background: $clr-white;
+    background: #FFF;
+    font-family: 'Exo 2',
+        sans-serif;
 
     @media screen and (max-width: 475px) {
 
@@ -22,25 +26,13 @@ body {
 
     p {
         font-size: 16px;
-        font-family: 'Exo 2',
-            sans-serif;
         font-weight: 400;
-        color: $clr-mid-grey;
+        color: #616161;
         line-height: 2;
     }
 
     .under-nav {
         margin-top: 6.8rem;
-    }
-}
-
-#app {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-
-    .site-content {
-        flex: 1;
     }
 
     a {
@@ -56,6 +48,16 @@ body {
         //     box-shadow: 0 0 3px $clr-accent;
         // }
     }
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    .site-content {
+        flex: 1;
+    }
 
     // button {
     //     &:focus {
@@ -67,23 +69,19 @@ body {
 }
 
 a {
-    font-family: 'Exo 2',
-        sans-serif;
     font-weight: 700;
 
 }
 
 h1 {
-    font-family: 'Exo 2',
-        sans-serif;
     font-weight: 700;
     font-size: 40px;
     text-transform: capitalize;
-    color: $clr-drk-grey;
+    color: #343434;
     letter-spacing: 2px;
 
     span {
-        color: $clr-accent;
+        color: #FF1145;
     }
 
     @media screen and (min-width: 1024px) {
@@ -96,11 +94,9 @@ h1 {
 }
 
 h2 {
-    font-family: 'Exo 2',
-        sans-serif;
     font-size: 30px;
     font-weight: 700;
-    color: $clr-mid-grey;
+    color: #616161;
     letter-spacing: 2px;
 
     @media screen and (min-width: 1200px) {
@@ -109,11 +105,9 @@ h2 {
 }
 
 h3 {
-    font-family: 'Exo 2',
-        sans-serif;
     font-size: 20px;
     font-weight: 500;
-    color: $clr-mid-grey;
+    color: #616161;
 
     @media screen and (min-width: 1200px) {
         font-size: 32px;

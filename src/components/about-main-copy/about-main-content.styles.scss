@@ -1,3 +1,6 @@
+@import '../../assets/scss/mixins';
+@import '../../assets/scss/variables';
+
 .about-azwun {
     background-image: url("../../assets/imgs/about/about_bg_logo.png");
     background-repeat: no-repeat;
@@ -26,7 +29,7 @@
 
             h1 {
                 font-size: 40px;
-                font-weight: 700;
+                font-weight: 900;
                 padding: 7.2rem 0 0 0;
             }
 
@@ -41,8 +44,8 @@
 
                             &.txt-bold {
                                 display: inline;
-                                font-weight: 700;
-                                color: #343434;
+                                font-weight: 900;
+                                color: $clr-drk-grey;
                                 margin: 0;
                             }
                         }
@@ -60,7 +63,7 @@
                         background: #fff;
 
                         &:hover {
-                            background: #FF1145;
+                            background: $clr-accent;
                         }
                     }
                 }

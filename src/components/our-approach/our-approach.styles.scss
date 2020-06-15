@@ -1,9 +1,12 @@
+@import '../../assets/scss/mixins';
+@import '../../assets/scss/variables';
+
 .our-approach {
   .container {
     .content-wrapper {
       h1 {
         font-size: 40px;
-        font-weight: 700;
+        font-weight: 900;
         text-align: center;
         padding: 7.2rem 0 0 0;
       }
@@ -58,7 +61,7 @@
             }
 
             .icn-hdr-wrapper {
-              background: #F3F3F3;
+              background: $clr-card-background;
               height: 35.5rem;
               display: flex;
               align-items: center;
@@ -97,7 +100,7 @@
                 .icn-hdr {
                   h2 {
                     font-size: 25px;
-                    font-weight: 700;
+                    font-weight: 900;
                     margin-top: 2rem;
 
                     @media screen and (min-width: 768px) {
@@ -116,7 +119,7 @@
 
             .copy-wrapper {
               padding: 3rem 1.5rem;
-              border-top: solid #DDD 1px;
+              border-top: solid $clr-off-white 1px;
               text-align: center;
 
               @media screen and (min-width: 425px) {
@@ -140,7 +143,7 @@
         margin-top: 7rem;
 
         p {
-          color: #343434;
+          color: $clr-drk-grey;
 
           span {
             display: block;

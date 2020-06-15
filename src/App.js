@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import './App.scss';
+import './assets/scss/_base.scss';
 
 import Header from './components/header/header.component';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top.component';

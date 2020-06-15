@@ -1,5 +1,8 @@
+@import '../../assets/scss/mixins';
+@import '../../assets/scss/variables';
+
 .what-we-do {
-    border-top: solid #5DB6D7 0.7rem;
+    border-top: solid $clr-mid-blue 0.7rem;
     overflow: hidden;
 
     .container {
@@ -12,7 +15,7 @@
 
             h1 {
                 font-size: 40px;
-                font-weight: 700;
+                font-weight: 900;
                 text-align: center;
                 padding: 7.2rem 0 0 0;
             }
@@ -24,7 +27,7 @@
                     .copy-wrapper {
                         h2 {
                             font-size: 3rem;
-                            font-weight: 700;
+                            font-weight: 900;
                             margin-top: 7rem;
 
                             @media screen and (min-width: 768px) {
@@ -58,7 +61,7 @@
 
                         .copy-wrapper {
                             flex: 0 0 54%;
-                            background: #FFF;
+                            background: $clr-white;
                             padding: 1rem 1.5rem;
                             z-index: 5;
 
@@ -112,7 +115,7 @@
                                 display: block;
                                 width: 100%;
                                 height: 100%;
-                                border: solid #4A7E92 1px;
+                                border: solid $clr-drk-blue 1px;
                                 z-index: -1;
 
                                 @media screen and (min-width: 1024px) {
@@ -136,7 +139,7 @@
                                 display: block;
                                 width: 100%;
                                 height: 100%;
-                                border: solid #4A7E92 1px;
+                                border: solid $clr-drk-blue 1px;
                                 z-index: -1;
 
                                 @media screen and (min-width: 1024px) {
@@ -164,7 +167,7 @@
                                 display: block;
                                 width: 100%;
                                 height: 100%;
-                                border: solid #4A7E92 1px;
+                                border: solid $clr-drk-blue 1px;
                                 z-index: -1;
                             }
                         }
@@ -203,7 +206,7 @@
 
             h2 {
                 font-size: 3rem;
-                font-weight: 700;
+                font-weight: 900;
                 margin-top: 7rem;
 
                 @media screen and (min-width: 768px) {

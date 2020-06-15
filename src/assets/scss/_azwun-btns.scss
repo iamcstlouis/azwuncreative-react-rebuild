@@ -1,7 +1,11 @@
+@import './mixins';
+@import './variables';
+
 .azwun-btn {
     display: inline-block;
     margin-top: 2rem;
-    transition: all 0.3s ease-in-out;
+    // @include transition-3s;
+    transition: all .3s !important;
 
     @media screen and (min-width: 1024px) {
         margin-top: 3rem;
@@ -20,42 +24,43 @@
     }
 
     &--accent-border {
-        border: solid #FF1145 3px;
+        border: solid $clr-accent 3px;
 
         &:hover {
-            background: #FF1145;
-            border: solid #FF698A 3px;
+            background: $clr-accent;
+            border: solid $clr-link-accent-background-border 3px;
         }
     }
 
     &--accent-background {
-        border: solid #FF698A 3px;
-        background: #FF1145;
+        border: solid $clr-link-accent-background-border 3px;
+        background: $clr-link-accent-background;
 
         &:hover {
-            border: solid #FF1145 3px;
+            border: solid $clr-accent 3px;
             background: none;
 
             a,
             span {
-                color: #343434;
+                color: $clr-drk-grey;
             }
         }
     }
 
     .azwun-btn__txt {
         font-size: 16px;
-        transition: all 0.3s ease-in-out;
+        // @include transition-3s;
+        transition: all .3s !important;
 
         &--white {
-            color: #FFF;
+            color: $clr-white;
         }
 
         &--dark {
-            color: #343434;
+            color: $clr-drk-grey;
 
             &:hover {
-                color: #FFF;
+                color: $clr-white;
             }
         }
 

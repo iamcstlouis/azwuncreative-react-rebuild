@@ -1,3 +1,6 @@
+@import '../../assets/scss/mixins';
+@import '../../assets/scss/variables';
+
 .azwun-contact-form {
     max-width: 61rem;
     margin: 0 auto;
@@ -18,27 +21,27 @@
         padding: 1rem;
         font-size: 14px;
         font-family: "Exo 2";
-        border: solid #DDDDDD 1px;
-        background: #F9F9F9;
+        border: solid $clr-light-grey 1px;
+        background: $clr-form-input-background;
 
         @media screen and (min-width: 1024px) {
             flex: 0 0 49.2%;
         }
 
         &::placeholder {
-            color: #9D9D9D;
+            color: $clr-form-input-text;
         }
 
         &:-moz-placeholder {
-            color: #9D9D9D;
+            color: $clr-form-input-text;
         }
 
         &:-ms-input-placeholder {
-            color: #9D9D9D;
+            color: $clr-form-input-text;
         }
 
         &::-webkit-input-placeholder {
-            color: #9D9D9D;
+            color: $clr-form-input-text;
         }
 
         &:first-child {
@@ -52,8 +55,8 @@
         &:active,
         &:focus {
             outline: none !important;
-            border: 0.1px solid #FF1145;
-            box-shadow: 0 0 2px #FF1145;
+            border: 0.1px solid $clr-accent;
+            box-shadow: 0 0 2px $clr-accent;
         }
     }
 
@@ -65,30 +68,30 @@
         padding: 1rem;
         font-size: 14px;
         font-family: "Exo 2";
-        border: solid #DDDDDD 1px;
-        background: #F9F9F9;
+        border: solid $clr-light-grey 1px;
+        background: $clr-form-input-background;
 
         &:active,
         &:focus {
             outline: none !important;
-            border: 0.1px solid #FF1145;
-            box-shadow: 0 0 2px #FF1145;
+            border: 0.1px solid $clr-accent;
+            box-shadow: 0 0 2px $clr-accent;
         }
 
         &::placeholder {
-            color: #9D9D9D;
+            color: $clr-form-input-text;
         }
 
         &:-moz-placeholder {
-            color: #9D9D9D;
+            color: $clr-form-input-text;
         }
 
         &:-ms-input-placeholder {
-            color: #9D9D9D;
+            color: $clr-form-input-text;
         }
 
         &::-webkit-input-placeholder {
-            color: #9D9D9D;
+            color: $clr-form-input-text;
         }
     }
 

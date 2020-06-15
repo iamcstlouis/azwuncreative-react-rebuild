@@ -1,5 +1,8 @@
+@import '../../assets/scss/mixins';
+@import '../../assets/scss/variables';
+
 .our-values {
-    background: #F7F7F7;
+    background: $clr-our-values-background;
     margin-top: 7rem;
     padding: 0 0 7.2rem 0;
 
@@ -18,7 +21,7 @@
 
             h1 {
                 font-size: 40px;
-                font-weight: 700;
+                font-weight: 900;
                 text-align: center;
                 padding: 7.2rem 0 0 0;
             }
@@ -54,7 +57,7 @@
                             height: 200px;
                             display: flex;
                             align-items: center;
-                            border-right: solid #DDD 2px;
+                            border-right: solid $clr-off-white 2px;
 
                             .icn {
                                 width: 4rem;
@@ -66,7 +69,7 @@
 
                             h2 {
                                 font-size: 25px;
-                                font-weight: 700;
+                                font-weight: 900;
 
                                 @media screen and (min-width: 768px) {
                                     font-size: 32px;
