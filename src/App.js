@@ -1,5 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Switch, Route } from 'react-router-dom';
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import './App.scss';
 
@@ -12,6 +15,14 @@ import Footer from './components/footer/footer.component';
 import Work from './pages/work/work.component';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1800,
+      // once: true,
+      delay: 500
+    });
+  })
+
   return (
     <div>
       <Header />
