@@ -1,5 +1,4 @@
 import React from 'react'
-// import './our-approach.styles.scss'
 
 function SingleCard({cardIcn, alt, hdr, excerpt}) {
     return (

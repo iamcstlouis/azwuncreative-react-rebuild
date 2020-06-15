@@ -1,5 +1,4 @@
 import React from 'react'
-import './our-values.styles.scss'
 
 function SingleValue({ valueHdr, valueExcerpt }) {
     
