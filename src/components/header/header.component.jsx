@@ -5,6 +5,22 @@ import { NavLink } from 'react-router-dom';
 import './header.styles.scss'
 
 const Header = () => {
+
+    const toggleMobileMenu = () => {
+        var menuToggler = document.querySelector('.menu-toggler');
+        var hamburger = document.querySelector('.hamburger-btn');
+        var barTop = document.querySelector('.bar__top');
+        var barMid = document.querySelector('.bar__mid');
+        var barBtm = document.querySelector('.bar__btm');
+        var mobileMenu = document.querySelector('.mobile-menu');
+
+        var menuItems = [menuToggler, hamburger, barTop, barMid, barBtm, mobileMenu];
+
+        menuItems.forEach(function (el) {
+            el.classList.toggle('open')
+        })
+    }
+
     return (
         <div id='nav'>
             <div className='container'>
@@ -20,7 +36,7 @@ const Header = () => {
                     </div>
                 </div>
 
-                <div className='menu-toggler'>
+                <div className='menu-toggler' onClick={() => toggleMobileMenu()}>
                     <div className='hamburger-btn'>
                         <div className='bar bar__top'></div>
                         <div className='bar bar__mid'></div>
