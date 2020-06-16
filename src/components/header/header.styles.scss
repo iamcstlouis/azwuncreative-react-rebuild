@@ -99,7 +99,8 @@
             transition: all 0.4s ease-in-out;
 
             &.open {
-                width: 100vw;
+                // width: 100vw;
+                width: 100%;
                 visibility: visible;
                 opacity: 1;
             }
