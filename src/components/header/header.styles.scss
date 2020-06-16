@@ -61,8 +61,11 @@
 
                     &__top {
                         &.open {
-                            transform: rotate(45deg) translateX(16px);
-                            width: 70%;
+                            // transform: rotate(45deg) translateX(16px);
+                            // width: 70%;
+
+                            transform: rotate(47deg) translateX(16px);
+                            width: 90%;
                         }
                     }
 
@@ -78,8 +81,11 @@
 
                     &__btm {
                         &.open {
-                            transform: rotate(-45deg) translateX(16px);
-                            width: 70%;
+                            // transform: rotate(-45deg) translateX(16px);
+                            // width: 70%;
+
+                            transform: rotate(-44deg) translateX(13.5px);
+                            width: 91%;
                         }
                     }
                 }
