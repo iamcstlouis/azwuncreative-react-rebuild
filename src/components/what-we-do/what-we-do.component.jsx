@@ -1,6 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import conceptToCompletionImg from '../../assets/imgs/home/img-01.jpg';
+import buildYourBrandImg from '../../assets/imgs/home/img-02.jpg';
+import visionToLifeImg from '../../assets/imgs/home/img-05-3.jpg';
+
 import './what-we-do.styles.scss'
 
 const WhatWeDo = () => {
@@ -16,7 +20,7 @@ const WhatWeDo = () => {
                         <div className='skill skill-01'>
                             <div className='img-wrapper'>
                                 <img
-                                    src={require('../../assets/imgs/home/img-01.jpg')}
+                                    src={conceptToCompletionImg}
                                     alt='Chalk board'
                                     data-aos='fade-right'
                                 />
@@ -32,7 +36,7 @@ const WhatWeDo = () => {
 
                         <div className='skill skill-02'>
                             <div className='img-wrapper'>
-                                <img src={require('../../assets/imgs/home/img-02.jpg')}
+                                <img src={buildYourBrandImg}
                                     alt='Coding website'
                                     data-aos='fade-left' />
                             </div>
@@ -45,7 +49,7 @@ const WhatWeDo = () => {
                         <div className='skill skill-03-desktop'>
                             <div className='img-wrapper'>
                                 <img
-                                    src={require('../../assets/imgs/home/img-05-3.jpg')}
+                                    src={visionToLifeImg}
                                     alt='collaboration'
                                     data-aos='fade-up'
                                 />
@@ -71,7 +75,7 @@ const WhatWeDo = () => {
 
             <div className='skill skill-03-mobile'>
                 <div className='img-wrapper'>
-                    <img src={require('../../assets/imgs/home/img-05-3.jpg')}
+                    <img src={visionToLifeImg}
                         alt='collaboration'
                         data-aos='zoom-in' />
                 </div>

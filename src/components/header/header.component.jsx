@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
+import logo from '../../assets/imgs/global/azwun-logo-mark2.svg';
+
 import './header.styles.scss'
 
 
@@ -31,7 +33,7 @@ export default class Header extends Component {
                         <div className='logo-wrapper'>
                             <Link to='/' onClick={this.closeMenu}>
                                 <img
-                                    src={require('../../assets/imgs/global/azwun-logo-mark2.svg')}
+                                    src={logo}
                                     className='logo'
                                     alt='Azwun Logo'
                                 />

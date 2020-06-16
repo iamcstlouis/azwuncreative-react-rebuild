@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-// import Service from './group-1-service.component.jsx';
-
 import OurServicesData from './our-services.data';
+
+import iphoneX from '../../assets/imgs/home/iphone-x.png';
 
 import './our-services.styles.scss';
 
@@ -33,7 +33,7 @@ class OurServices extends Component {
                                 <div className='device-img'>
                                     <div className='img-wrapper'>
                                         <img
-                                            src={require('../../assets/imgs/home/iphone-x.png')}
+                                            src={iphoneX}
                                             alt='iPhone'
                                             data-aos='zoom-in'
                                         />
@@ -59,7 +59,7 @@ class OurServices extends Component {
                             <div className='section-img-desktop'>
                                 <div className='img-wrapper'>
                                     <img
-                                        src={require('../../assets/imgs/home/iphone-x.png')}
+                                        src={iphoneX}
                                         alt='iPhone'
                                         data-aos='fade-right'
                                     />

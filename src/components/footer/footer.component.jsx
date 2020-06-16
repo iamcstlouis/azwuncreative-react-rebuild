@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import logo from '../../assets/imgs/global/azwun-logo-mark.svg';
+
 import './footer.styles.scss'
 
 const Footer = () => {
@@ -33,7 +35,7 @@ const Footer = () => {
                     <div className='top-section' data-aos='zoom-in' data-aos-once='true'>
                         <div className='logo-wrapper'>
                             <div className='logo'>
-                                <img src={require('../../assets/imgs/global/azwun-logo-mark.svg')} alt='Azwun Creative Logo' />
+                                <img src={logo} alt='Azwun Creative Logo' />
                             </div>
                         </div>
 
@@ -47,7 +49,7 @@ const Footer = () => {
                         <div className='socials'>
                             <div className='content-wrapper'>
                                 <div className='icn icn--facebook'>
-                                    <a href='https://www.facebook.com/Azwun-Creative-105284587859335/' rel="noopener noreferrer"target='_blank'>
+                                    <a href='https://www.facebook.com/Azwun-Creative-105284587859335/' rel="noopener noreferrer" target='_blank'>
                                         <i className='fab fa-facebook-f'></i>
                                     </a>
                                 </div>
