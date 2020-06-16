@@ -11,7 +11,7 @@ const ServicesGroup2Data = () => {
             serviceHdr: 'Content Writing',
             serviceExcerpt:
                 'Finding the right words to ensure your customers are crystal clear on the service you provide.',
-            id: 4
+            id: 'Content Writing'
         },
         {
             serviceIcn: require('../../assets/imgs/home/icn_maintenance.png'),
@@ -19,7 +19,7 @@ const ServicesGroup2Data = () => {
             serviceHdr: 'Maintenance',
             serviceExcerpt:
                 'Building your website is just the start. We’ll ensure your site remains compatible across all browsers and devices.',
-            id: 5
+            id: 'Maintenance'
         }
     ])
 

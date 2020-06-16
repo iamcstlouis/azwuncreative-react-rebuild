@@ -11,7 +11,7 @@ const ServicesGroup1Data = () => {
             serviceHdr: 'UI / UX Design',
             serviceExcerpt:
                 'User friendly creative solutions that guarantee your customers are able to navigate through your site with ease.',
-            id: 1
+            id: 'UI / UX Design'
         },
         {
             serviceIcn: require('../../assets/imgs/home/icn_web-design_2.svg'),
@@ -19,7 +19,7 @@ const ServicesGroup1Data = () => {
             serviceHdr: 'Web Design',
             serviceExcerpt:
                 'Providing beautiful web designs that engage and increase sales and truly represent your brand.',
-            id: 2
+            id: 'Web Design'
         },
         {
             serviceIcn: require('../../assets/imgs/home/icn_web-dev_2.svg'),
@@ -27,7 +27,7 @@ const ServicesGroup1Data = () => {
             serviceHdr: 'Web Development',
             serviceExcerpt:
                 'Building fully responsive websites that are available to anyone, anywhere, on any device.',
-            id: 3
+            id: 'Web Development'
         }
     ])
 
