@@ -51,11 +51,11 @@ const OurValuesList = () => {
     ])
 
     return (
-        <>
+        <React.Fragment>
             {values.map(value => (
                 <SingleValue valueHdr={value.value} valueExcerpt={value.valueExcerpt} key={value.id} />
             ))}
-        </>
+        </React.Fragment>
     )
 }
 

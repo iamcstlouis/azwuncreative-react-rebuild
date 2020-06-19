@@ -4,13 +4,13 @@ import { Helmet } from 'react-helmet'
 
 function Contact() {
     return (
-        <>
+        <React.Fragment>
             <Helmet>
                 <title>Contact Us</title>
             </Helmet>
 
             <ContactCopy />
-        </>
+        </React.Fragment>
     )
 }
 

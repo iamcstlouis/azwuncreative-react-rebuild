@@ -31,11 +31,11 @@ const Cards = () => {
   ])
 
   return (
-    <>
+    <React.Fragment>
       {cards.map(card => (
         <SingleCard cardIcn={card.icn} alt={card.alt} hdr={card.hdr} excerpt={card.excerpt} key={card.id} />
       ))}
-    </>
+    </React.Fragment>
   )
 }
 

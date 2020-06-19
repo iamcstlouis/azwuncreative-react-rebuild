@@ -5,13 +5,13 @@ import OurWork from '../../components/our-work/our-work.component'
 
 const Work = () => {
     return (
-        <>
+        <React.Fragment>
             <Helmet>
                 <title>Our Work</title>
             </Helmet>
 
             <OurWork />
-        </>
+        </React.Fragment>
     );
 }
 

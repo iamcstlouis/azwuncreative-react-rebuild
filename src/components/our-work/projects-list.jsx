@@ -3,7 +3,7 @@ import SingleProject from './single-project.component'
 
 const ProjectsData = () => {
     // const [projects, setProject] = useState ([
-    const [projects] = useState ([
+    const [projects] = useState([
         {
             project: 'iamCStlouis',
             projectLink: "https://iamcstlouis.com/",
@@ -43,12 +43,12 @@ const ProjectsData = () => {
     ])
 
     return (
-        <>
-        { projects.map( project => (
-            <SingleProject projectLink={project.projectLink} imageUrl={project.img} alt={project.alt} projectName={project.projectName} projectDesc={project.projectDesc} key={project.project} />
-        ))
-        }
-        </>
+        <React.Fragment>
+            {projects.map(project => (
+                <SingleProject projectLink={project.projectLink} imageUrl={project.img} alt={project.alt} projectName={project.projectName} projectDesc={project.projectDesc} key={project.project} />
+            ))
+            }
+        </React.Fragment>
     )
 }
 

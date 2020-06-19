@@ -5,13 +5,13 @@ import { Helmet } from 'react-helmet';
 
 const About = () => {
     return (
-        <>
+        <React.Fragment>
             <Helmet>
                 <title>About Us</title>
             </Helmet>
 
             <AboutMainContent />
-        </>
+        </React.Fragment>
     );
 }
 
