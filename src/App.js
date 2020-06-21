@@ -9,7 +9,7 @@ import './assets/scss/_base.scss';
 import Header from './components/header/header.component';
 import ScrollToTop from './components/scroll-to-top/scroll-to-top.component';
 import Homepage from './pages/home/homepage/homepage.component';
-import About from './pages/about/about.component';
+import About from './pages/About';
 import Contact from './pages/contact/contact.component';
 import Footer from './components/footer/footer.component';
 import Work from './pages/work/work.component';
