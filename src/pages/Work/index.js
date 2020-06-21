@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 
-import OurWork from './our-work'
+import OurWork from './OurWork'
 
 const Work = () => {
     return (
