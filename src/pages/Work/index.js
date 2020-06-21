@@ -1,18 +1,18 @@
 import React from 'react';
-import AboutMainContent from './AboutContent'
-
 import { Helmet } from 'react-helmet';
 
-const About = () => {
+import OurWork from './our-work'
+
+const Work = () => {
     return (
         <React.Fragment>
             <Helmet>
-                <title>About Us</title>
+                <title>Our Work</title>
             </Helmet>
 
-            <AboutMainContent />
+            <OurWork />
         </React.Fragment>
     );
 }
 
-export default About;
+export default Work;

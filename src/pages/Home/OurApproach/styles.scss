@@ -1,0 +1,169 @@
+@import '../../../assets/scss/mixins';
+@import '../../../assets/scss/variables';
+
+.our-approach {
+  .container {
+    .content-wrapper {
+      h1 {
+        font-size: 40px;
+        font-weight: 900;
+        text-align: center;
+        padding: 7.2rem 0 0 0;
+      }
+
+      .cards {
+        ul.cards-list {
+          list-style-type: none;
+          padding: 0;
+
+          @media screen and (min-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+          }
+
+          li {
+            text-align: center;
+            -webkit-box-shadow: 0px 0.5px 5px 0px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: 0px 0.5px 5px 0px rgba(0, 0, 0, 0.4);
+            box-shadow: 0px 0.5px 5px 0px rgba(0, 0, 0, 0.4);
+            margin-top: 8rem;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+
+            &:last-child {
+              .icn-hdr-wrapper {
+                .content-wrapper {
+                  .icn-wrapper {
+                    width: 18.6rem;
+
+                    //Fixes disproportionate sizes of icons
+                    @media screen and (min-width: 768px) {
+                      width: 8rem;
+                      margin-top: -2.5rem;
+                    }
+
+                    @media screen and (min-width: 1024px) {
+                      width: 8.8rem;
+                    }
+
+                    @media screen and (min-width: 1200px) {
+                      width: 19rem;
+                      margin-top: -6rem;
+                    }
+                  }
+                }
+              }
+            }
+
+            @media screen and (min-width: 768px) {
+              flex: 0 0 32%;
+            }
+
+            .icn-hdr-wrapper {
+              background: $clr-card-background;
+              height: 35.5rem;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              @media screen and (min-width: 768px) {
+                height: 16rem;
+              }
+
+              @media screen and (min-width: 1024px) {
+                height: 25.5rem;
+              }
+
+              @media screen and (min-width: 1200px) {
+                height: 35.5rem;
+              }
+
+              .content-wrapper {
+                .icn-wrapper {
+                  width: 11.6rem;
+                  margin: 0 auto;
+
+                  @media screen and (min-width: 768px) {
+                    width: 5rem;
+                  }
+
+                  @media screen and (min-width: 1024px) {
+                    width: 5.8rem;
+                  }
+
+                  @media screen and (min-width: 1200px) {
+                    width: 11.6rem;
+                  }
+                }
+
+                .icn-hdr {
+                  h2 {
+                    font-size: 25px;
+                    font-weight: 900;
+                    margin-top: 2rem;
+
+                    @media screen and (min-width: 768px) {
+                      font-size: 22px;
+                      margin-top: 1rem;
+                    }
+
+                    @media screen and (min-width: 1024px) {
+                      font-size: 25px;
+                      margin-top: 2rem;
+                    }
+                  }
+                }
+              }
+            }
+
+            .copy-wrapper {
+              padding: 3rem 1.5rem;
+              border-top: solid $clr-off-white 1px;
+              text-align: center;
+
+              @media screen and (min-width: 425px) {
+                padding: 3rem 3.5rem;
+              }
+
+              @media screen and (min-width: 768px) {
+                padding: 3rem 1.5rem;
+              }
+
+              @media screen and (min-width: 1200px) {
+                padding: 3rem 2.5rem;
+              }
+            }
+          }
+        }
+      }
+
+      .section-copy {
+        text-align: center;
+        margin-top: 7rem;
+
+        p {
+          color: $clr-drk-grey;
+
+          span {
+            display: block;
+          }
+
+          &:nth-child(2) {
+            margin-top: 2rem;
+          }
+        }
+
+        @media screen and (min-width: 768px) {
+          margin-top: 3.5rem;
+        }
+
+        @media screen and (min-width: 1024px) {
+          .azwun-btn {
+            margin-top: 4rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,230 @@
+@import '../../../assets/scss/mixins';
+@import '../../../assets/scss/variables';
+
+.what-we-do {
+    border-top: solid $clr-mid-blue 0.7rem;
+    overflow: hidden;
+
+    .container {
+        overflow: hidden;
+        max-height: 100%;
+
+        .content-wrapper {
+            width: 85%;
+            margin: 0 auto;
+
+            h1 {
+                font-size: 40px;
+                font-weight: 900;
+                text-align: center;
+                padding: 7.2rem 0 0 0;
+            }
+
+            .skills {
+                .skill {
+                    margin-top: 8rem;
+
+                    .copy-wrapper {
+                        h2 {
+                            font-size: 3rem;
+                            font-weight: 900;
+                            margin-top: 7rem;
+
+                            @media screen and (min-width: 768px) {
+                                font-size: 32px;
+                            }
+                        }
+
+                        p {
+                            margin-top: 2.4rem;
+                            max-width: 50rem;
+
+                            &.skill-03 {
+                                margin-left: auto;
+                                margin-right: auto;
+                            }
+
+                            @media screen and (min-width: 768px) {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+
+                    @media screen and (min-width: 1024px) {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 15rem;
+
+                        .img-wrapper {
+                            flex: 0 0 45%;
+                        }
+
+                        .copy-wrapper {
+                            flex: 0 0 54%;
+                            background: $clr-white;
+                            padding: 1rem 1.5rem;
+                            z-index: 5;
+
+                            h2 {
+                                margin-top: 0;
+                                font-size: 22px;
+                            }
+
+                            p {
+                                margin-top: 1rem;
+                                font-size: 16px;
+                                width: 350px;
+                            }
+                        }
+
+                        &.skill-01 {
+                            .copy-wrapper {
+                                align-self: flex-end;
+                            }
+                        }
+
+                        &.skill-02 {
+                            flex-direction: row-reverse;
+                            justify-content: flex-end;
+
+                            .img-wrapper {
+                                flex: 0 0 55%;
+                            }
+
+                            .copy-wrapper {
+                                align-self: flex-end;
+                                flex: 0 0 45%;
+
+                                p {
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+
+                    &.skill-01 {
+                        .img-wrapper {
+                            position: relative;
+                            z-index: 1;
+
+                            &:before {
+                                content: "";
+                                position: absolute;
+                                top: 2rem;
+                                left: 1.5rem;
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                border: solid $clr-drk-blue 1px;
+                                z-index: -1;
+
+                                @media screen and (min-width: 1024px) {
+                                    top: 2.5rem;
+                                    left: 3.5rem;
+                                }
+                            }
+                        }
+                    }
+
+                    &.skill-02 {
+                        .img-wrapper {
+                            position: relative;
+                            z-index: 1;
+
+                            &:before {
+                                content: "";
+                                position: absolute;
+                                top: 1.5rem;
+                                right: 2rem;
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                border: solid $clr-drk-blue 1px;
+                                z-index: -1;
+
+                                @media screen and (min-width: 1024px) {
+                                    top: 2.5rem;
+                                    right: 3.5rem;
+                                }
+                            }
+                        }
+                    }
+
+                    &.skill-03-desktop {
+                        display: none;
+
+                        .img-wrapper {
+                            position: relative;
+                            width: 70%;
+                            margin: 0 auto;
+                            z-index: 1;
+
+                            &:before {
+                                content: "";
+                                position: absolute;
+                                top: 2.5rem;
+                                left: 2rem;
+                                display: block;
+                                width: 100%;
+                                height: 100%;
+                                border: solid $clr-drk-blue 1px;
+                                z-index: -1;
+                            }
+                        }
+
+                        @media screen and (min-width: 1024px) {
+                            display: block;
+                            text-align: center;
+
+                            .copy-wrapper {
+                                position: relative;
+                                display: inline-block;
+                                padding-top: 4rem;
+
+                                p {
+                                    width: 420px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .skill-03-mobile {
+        text-align: center;
+        margin-top: 8rem;
+
+        @media screen and (min-width: 1024px) {
+            display: none;
+        }
+
+        .copy-wrapper {
+            width: 85%;
+            margin: 0 auto;
+
+            h2 {
+                font-size: 3rem;
+                font-weight: 900;
+                margin-top: 7rem;
+
+                @media screen and (min-width: 768px) {
+                    font-size: 32px;
+                }
+            }
+
+            p {
+                margin-top: 2.4rem;
+
+                @media screen and (min-width: 768px) {
+                    font-size: 20px;
+                }
+            }
+
+            .azwun-btn {
+                margin-top: 5rem;
+            }
+        }
+    }
+}

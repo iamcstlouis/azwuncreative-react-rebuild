@@ -1,0 +1,63 @@
+@import '../../../assets/scss/mixins';
+@import '../../../assets/scss/variables';
+
+.home-hero {
+    text-align: center;
+    // Allows room for height of nav
+    height: calc(100vh - 6.8rem);
+    width: 100%;
+    background-image: url("../../../assets/imgs/home/hero_img_mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+        background-image: url("../../../assets/imgs/home/hero_img_desktop.jpg");
+    }
+
+    .container {
+        color: $clr-white;
+
+        .content-wrapper {
+            max-width: 500px;
+            margin: 0 auto;
+
+            @media screen and (min-width: 1024px) {
+                max-width: 700px;
+            }
+
+            .home-hero-hdr {
+                margin: 0;
+                font-size: 32px;
+                color: $clr-white;
+
+                @media screen and (min-width: 1024px) {
+                    font-size: 40px;
+                }
+            }
+
+            p {
+                font-size: 20px;
+                font-weight: 400;
+                color: $clr-off-white;
+                margin-top: 1.5rem;
+
+                @media screen and (min-width: 1024px) {
+                    font-size: 25px;
+                }
+            }
+
+            .quote-link {
+                font-size: 20px;
+                color: $clr-off-white;
+                margin-top: 3rem;
+
+                @media screen and (min-width: 1024px) {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

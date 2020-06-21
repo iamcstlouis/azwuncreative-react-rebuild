@@ -1,0 +1,102 @@
+@import '../../../assets/scss/mixins';
+@import '../../../assets/scss/variables';
+
+.azwun-contact-form {
+    max-width: 61rem;
+    margin: 0 auto;
+
+    @media screen and (min-width: 1024px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 2rem;
+        max-width: 100%;
+    }
+
+    input {
+        display: block;
+        width: 100%;
+        height: 4.5rem;
+        margin-top: 2.4rem;
+        padding: 1rem;
+        font-size: 14px;
+        font-family: "Exo 2";
+        border: solid $clr-light-grey 1px;
+        background: $clr-form-input-background;
+
+        @media screen and (min-width: 1024px) {
+            flex: 0 0 49.2%;
+        }
+
+        &::placeholder {
+            color: $clr-form-input-text;
+        }
+
+        &:-moz-placeholder {
+            color: $clr-form-input-text;
+        }
+
+        &:-ms-input-placeholder {
+            color: $clr-form-input-text;
+        }
+
+        &::-webkit-input-placeholder {
+            color: $clr-form-input-text;
+        }
+
+        &:first-child {
+            margin-top: 4rem;
+
+            @media screen and (min-width: 1024px) {
+                margin-top: 2.4rem;
+            }
+        }
+
+        &:active,
+        &:focus {
+            outline: none !important;
+            border: 0.1px solid $clr-accent;
+            box-shadow: 0 0 2px $clr-accent;
+        }
+    }
+
+    textarea {
+        display: block;
+        margin-top: 2.4rem;
+        width: 100%;
+        height: 30rem;
+        padding: 1rem;
+        font-size: 14px;
+        font-family: "Exo 2";
+        border: solid $clr-light-grey 1px;
+        background: $clr-form-input-background;
+
+        &:active,
+        &:focus {
+            outline: none !important;
+            border: 0.1px solid $clr-accent;
+            box-shadow: 0 0 2px $clr-accent;
+        }
+
+        &::placeholder {
+            color: $clr-form-input-text;
+        }
+
+        &:-moz-placeholder {
+            color: $clr-form-input-text;
+        }
+
+        &:-ms-input-placeholder {
+            color: $clr-form-input-text;
+        }
+
+        &::-webkit-input-placeholder {
+            color: $clr-form-input-text;
+        }
+    }
+
+    .azwun-btn {
+        display: block;
+        margin-top: 2.6rem auto 0 0;
+    }
+}

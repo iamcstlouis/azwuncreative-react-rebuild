@@ -1,0 +1,40 @@
+@import '../../../assets/scss/mixins';
+@import '../../../assets/scss/variables';
+
+.contact-azwun {
+    .container {
+        .content-wrapper {
+            text-align: center;
+
+            .hdrs {
+                h1 {
+                    font-size: 40px;
+                    font-weight: 900;
+                    text-align: center;
+                    padding: 7.2rem 0 0 0;
+                }
+
+                h2 {
+                    margin-top: 2rem;
+                    line-height: 1.7;
+
+                    @media screen and (min-width: 768px) {
+                        font-size: 22px;
+                        margin-top: 1rem;
+                    }
+                }
+            }
+
+            .contact-copy {
+                margin: 5rem auto 0 auto;
+                max-width: 61rem;
+
+                @media screen and (min-width: 1024px) {
+                    margin-top: 1rem;
+                }
+            }
+
+
+        }
+    }
+}

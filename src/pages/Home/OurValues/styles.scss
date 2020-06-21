@@ -1,0 +1,88 @@
+@import '../../../assets/scss/mixins';
+@import '../../../assets/scss/variables';
+
+.our-values {
+    background: $clr-our-values-background;
+    margin-top: 7rem;
+    padding: 0 0 7.2rem 0;
+
+    .container {
+        .content-wrapper {
+            width: 95%;
+            margin: 0 auto;
+
+            @media screen and (min-width: 1024px) {
+                width: 85%;
+            }
+
+            @media screen and (min-width: 1200px) {
+                width: 75%;
+            }
+
+            h1 {
+                font-size: 40px;
+                font-weight: 900;
+                text-align: center;
+                padding: 7.2rem 0 0 0;
+            }
+
+            .values-section {
+                .values-list {
+                    padding: 0;
+                    list-style-type: none;
+
+                    @media screen and (min-width: 1024px) {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                    }
+
+                    li {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        margin-top: 8rem;
+                        margin-right: auto;
+                        margin-left: auto;
+                        max-width: 36rem;
+
+                        @media screen and (min-width: 1024px) {
+                            flex: 0 0 45%;
+                            margin-right: 0;
+                            margin-left: 0;
+                        }
+
+                        .icn-wrapper {
+                            flex: 0 0 20%;
+                            height: 200px;
+                            display: flex;
+                            align-items: center;
+                            border-right: solid $clr-off-white 2px;
+
+                            .icn {
+                                width: 4rem;
+                            }
+                        }
+
+                        .copy-wrapper {
+                            flex: 0 0 70%;
+
+                            h2 {
+                                font-size: 25px;
+                                font-weight: 900;
+
+                                @media screen and (min-width: 768px) {
+                                    font-size: 32px;
+                                }
+
+                                @media screen and (min-width: 1024px) {
+                                    font-size: 22px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
