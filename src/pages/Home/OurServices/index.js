@@ -1,6 +1,6 @@
 import React from 'react';
-import ServicesGroup1Data from './OurServicesList/ServicesData/services-group1-data';
-import ServicesGroup2Data from './OurServicesList/ServicesData/services-group2-data';
+import OurServicesData from './OurServicesList/ServicesData'
+import SingleService from './OurServicesList/SingleService'
 
 import iphoneX from '../../../assets/imgs/home/iphone-x.png';
 
@@ -19,7 +19,11 @@ const OurServices = () => {
                     <div className='flex-container'>
                         <div className='services'>
                             <div className='services__group services__group--1'>
-                                <ServicesGroup1Data />
+                                {
+                                    OurServicesData.servicesGroup1.map((service) => (
+                                        <SingleService serviceIcn={service.serviceIcn} alt={service.alt} serviceHdr={service.serviceHdr} serviceExcerpt={service.serviceExcerpt} key={service.id} />
+                                    ))
+                                }
                             </div>
 
                             <div className='device-img'>
@@ -33,18 +37,11 @@ const OurServices = () => {
                             </div>
 
                             <div className='services__group services__group--2'>
-                                {/* <div className='content-wrapper' v-for='(obj, two) in services2'>
-                                    <div className='service'>
-                                        <div className='img-wrapper'>
-                                        </div>
-
-                                        <div className='copy-wrapper'>
-                                            <h2 data-aos='fade-left'></h2>
-                                            <p data-aos='fade-right'></p>
-                                        </div>
-                                    </div>
-                                </div> */}
-                                <ServicesGroup2Data />
+                                {
+                                    OurServicesData.servicesGroup2.map((service) => (
+                                        <SingleService serviceIcn={service.serviceIcn} alt={service.alt} serviceHdr={service.serviceHdr} serviceExcerpt={service.serviceExcerpt} key={service.id} />
+                                    ))
+                                }
                             </div>
                         </div>
 

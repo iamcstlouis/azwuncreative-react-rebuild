@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../styles.scss'
+import './styles.scss'
 
-const Group2Service = ({ serviceIcn, alt, serviceHdr, serviceExcerpt }) => {
+const SingleService = ({ serviceIcn, alt, serviceHdr, serviceExcerpt }) => {
     return (
         <div className='content-wrapper'>
             <div className='service'>
@@ -18,4 +18,7 @@ const Group2Service = ({ serviceIcn, alt, serviceHdr, serviceExcerpt }) => {
     );
 }
 
-export default Group2Service;
+export default SingleService;
+
+
+
