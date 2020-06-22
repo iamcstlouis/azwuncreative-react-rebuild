@@ -10,7 +10,7 @@ const Cards = () => {
             <ul className='cards-list'>
                 {
                     CardsData.map((card) => (
-                        <SingleCard icn={card.icn} alt={card.alt} hdr={card.hdr} excerpt={card.excerpt} />
+                        <SingleCard icn={card.icn} alt={card.alt} hdr={card.hdr} excerpt={card.excerpt} key={card.id} />
                     ))
                 }
             </ul>
