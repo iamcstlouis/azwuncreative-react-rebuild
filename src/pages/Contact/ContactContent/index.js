@@ -1,5 +1,4 @@
 import React from 'react'
-// import ContactForm from '../ContactForm'
 
 import './styles.scss'
 
@@ -18,9 +17,6 @@ function ContactCopy() {
               <p>Please fill out the form below and we’ll be in touch as soon as possible. We look forward to hearing about your business and how we can help create or improve your online presence.</p>
             </div>
           </div>
-
-          {/* <ContactForm /> */}
-
         </div>
       </div>
     </section>
