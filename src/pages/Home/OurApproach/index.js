@@ -1,6 +1,5 @@
 import React from 'react'
 import Cards from './Cards'
-
 import OurApproachMainCopy from './MainCopy'
 
 import './styles.scss'
@@ -14,12 +13,7 @@ function OurApproach() {
                         Our <span>approach.</span>
                     </h1>
 
-                    <div className='cards'>
-                        <ul className='cards-list'>
-                            <Cards />
-                        </ul>
-                    </div>
-
+                    <Cards />
                     <OurApproachMainCopy />
                 </div>
             </div>

@@ -1,42 +1,21 @@
-import React, { useState } from 'react'
+import React from 'react'
+import CardsData from './CardsData'
 import SingleCard from './SingleCard'
 
-const Cards = () => {
-  // const [cards, setCards] = useState ([
-  const [cards] = useState([
-    {
-      icn: require('../../../../assets/imgs/home/icn_design_pink.png'),
-      alt: 'Azwun design icon',
-      hdr: 'Design.',
-      excerpt:
-        'Let’s build something beautiful, something that enhaces and takes your business to the next level.',
-      id: 'Design Card'
-    },
-    {
-      icn: require('../../../../assets/imgs/home/icn_develop_pink.png'),
-      alt: 'Azwun develop icon',
-      hdr: 'Develop.',
-      excerpt:
-        'Building and testing our code, to ensure that your site is fully responsive and looks great across all browsers and devices.',
-      id: 'Develop Card'
-    },
-    {
-      icn: require('../../../../assets/imgs/home/icn_deploy_pink.png'),
-      alt: 'Azwun design icon',
-      hdr: 'Deploy.',
-      excerpt:
-        'The hand over. You’re ready to go live!… With a brand new site that truly meets the needs of your customers.',
-      id: 'Deploy Card'
-    }
-  ])
+import './styles.scss'
 
-  return (
-    <React.Fragment>
-      {cards.map(card => (
-        <SingleCard cardIcn={card.icn} alt={card.alt} hdr={card.hdr} excerpt={card.excerpt} key={card.id} />
-      ))}
-    </React.Fragment>
-  )
+const Cards = () => {
+    return (
+        <div className='cards'>
+            <ul className='cards-list'>
+                {
+                    CardsData.map((card) => (
+                        <SingleCard icn={card.icn} alt={card.alt} hdr={card.hdr} excerpt={card.excerpt} />
+                    ))
+                }
+            </ul>
+        </div>
+    )
 }
 
 export default Cards

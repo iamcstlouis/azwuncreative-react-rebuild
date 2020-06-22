@@ -1,12 +1,12 @@
 import React from 'react'
 
-function SingleCard({cardIcn, alt, hdr, excerpt}) {
+function SingleCard({icn, alt, hdr, excerpt}) {
     return (
         <li data-aos='zoom-in-down'>
             <div className='icn-hdr-wrapper'>
                 <div className='content-wrapper'>
                     <div className='icn-wrapper'>
-                        <img src={cardIcn} alt={alt} />
+                        <img src={icn} alt={alt} />
                     </div>
                     
                     <div className='icn-hdr'>
