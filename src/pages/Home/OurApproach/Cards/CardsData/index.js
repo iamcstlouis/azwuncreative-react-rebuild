@@ -1,6 +1,6 @@
-import designImage from '../../../../../assets/imgs/home/icn_design_pink.png'
-import developImage from '../../../../../assets/imgs/home/icn_develop_pink.png'
-import deployImage from '../../../../../assets/imgs/home/icn_deploy_pink.png'
+import designImage from '../../../../../images/home/icn_design_pink.png'
+import developImage from '../../../../../images/home/icn_develop_pink.png'
+import deployImage from '../../../../../images/home/icn_deploy_pink.png'
 
 const CardsData = [
   {

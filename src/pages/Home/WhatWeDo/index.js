@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import conceptToCompletionImg from '../../../assets/imgs/home/img-01.jpg';
-import buildYourBrandImg from '../../../assets/imgs/home/img-02.jpg';
-import visionToLifeImg from '../../../assets/imgs/home/img-05-3.jpg';
+import conceptToCompletionImg from '../../../images/home/img-01.jpg';
+import buildYourBrandImg from '../../../images/home/img-02.jpg';
+import visionToLifeImg from '../../../images/home/img-05-3.jpg';
 
 import './styles.scss'
 

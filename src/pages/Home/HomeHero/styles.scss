@@ -6,7 +6,7 @@
     // Allows room for height of nav
     height: calc(100vh - 6.8rem);
     width: 100%;
-    background-image: url("../../../assets/imgs/home/hero_img_mobile.jpg");
+    background-image: url("../../../images/home/hero_img_mobile.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@
     align-items: center;
 
     @media screen and (min-width: 768px) {
-        background-image: url("../../../assets/imgs/home/hero_img_desktop.jpg");
+        background-image: url("../../../images/home/hero_img_desktop.jpg");
     }
 
     .container {

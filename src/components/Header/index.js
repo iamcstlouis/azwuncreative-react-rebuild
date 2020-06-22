@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
-import logo from '../../assets/imgs/global/azwun-logo-mark2.svg';
+import logo from '../../images/global/azwun-logo-mark2.svg';
 
 import './styles.scss'
 

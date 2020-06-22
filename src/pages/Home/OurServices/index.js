@@ -2,7 +2,7 @@ import React from 'react';
 import OurServicesData from './OurServicesList/ServicesData'
 import SingleService from './OurServicesList/SingleService'
 
-import iphoneX from '../../../assets/imgs/home/iphone-x.png';
+import iphoneX from '../../../images/home/iphone-x.png';
 
 import './styles.scss';
 

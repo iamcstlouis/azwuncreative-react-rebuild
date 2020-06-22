@@ -3,12 +3,12 @@
     background: #343434;
     margin-top: 7.2rem;
     padding-bottom: 3rem;
-    background-image: url("../../assets/imgs/global/footer_bg_logo_mobile.png");
+    background-image: url("../../images/global/footer_bg_logo_mobile.png");
     background-repeat: no-repeat;
     background-position: center;
 
     @media screen and (min-width: 412px) {
-        background-image: url("../../assets/imgs/global/footer_bg_logo_desktop.png");
+        background-image: url("../../images/global/footer_bg_logo_desktop.png");
     }
 
     @media screen and (min-width: 580px) {

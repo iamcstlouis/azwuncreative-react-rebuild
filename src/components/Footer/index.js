@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import logo from '../../assets/imgs/global/azwun-logo-mark.svg';
+import logo from '../../images/global/azwun-logo-mark.svg';
 
 import './styles.scss'
 

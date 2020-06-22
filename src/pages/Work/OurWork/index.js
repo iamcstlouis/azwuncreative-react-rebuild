@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectsData from './Projects/ProjectData/projects-list'
+import ProjectsData from './Projects/ProjectData'
 
 import './styles.scss'
 

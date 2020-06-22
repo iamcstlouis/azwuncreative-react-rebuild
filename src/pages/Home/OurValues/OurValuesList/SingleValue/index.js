@@ -1,6 +1,6 @@
 import React from 'react'
 
-import TickIcon from '../../../../../assets/imgs/home/icn_tick.png';
+import TickIcon from '../../../../../images/home/icn_tick.png';
 
 function SingleValue({ valueHdr, valueExcerpt }) {
 

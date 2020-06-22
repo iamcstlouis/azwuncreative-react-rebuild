@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import SingleProject from '../SingleProject'
-import iamCStlouisImage from '../../../../../assets/imgs/work/project_iamcstlouis.png'
-import palmeriaBeautyImage from '../../../../../assets/imgs/work/project_palmeria_beauty.png'
-import steaknBeer from '../../../../../assets/imgs/work/project_steak_n_beer.png'
-import vapeViewsImage from '../../../../../assets/imgs/work/project_vapeviews.png'
+import iamCStlouisImage from '../../../../../images/work/project_iamcstlouis.png'
+import palmeriaBeautyImage from '../../../../../images/work/project_palmeria_beauty.png'
+import steaknBeer from '../../../../../images/work/project_steak_n_beer.png'
+import vapeViewsImage from '../../../../../images/work/project_vapeviews.png'
 
 const ProjectsData = () => {
     // const [projects, setProject] = useState ([
