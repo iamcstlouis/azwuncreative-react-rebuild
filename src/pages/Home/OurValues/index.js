@@ -1,6 +1,6 @@
 import React from 'react'
-// import SingleValue from './single-value.component'
-import OurValuesList from './OurValuesList/OurValuesData'
+import SingleValue from './OurValuesList/SingleValue'
+import OurValuesData from './OurValuesList/OurValuesData'
 
 import './styles.scss'
 
@@ -16,7 +16,11 @@ function OurValues() {
 
                     <div className='values-section'>
                         <ul className='values-list'>
-                         <OurValuesList />
+                            {
+                                OurValuesData.map((value) => (
+                                    <SingleValue valueHdr={value.valueHdr} valueExcerpt={value.valueExcerpt} key={value.id} />
+                                ))
+                            }
                         </ul>
                     </div>
                 </div>

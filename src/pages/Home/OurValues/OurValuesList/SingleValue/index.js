@@ -5,7 +5,7 @@ import TickIcon from '../../../../../assets/imgs/home/icn_tick.png';
 function SingleValue({ valueHdr, valueExcerpt }) {
 
     return (
-        <li>
+        <li className='value'>
             <div className='icn-wrapper'>
                 <div className='icn'>
                     <img
