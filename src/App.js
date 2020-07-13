@@ -21,7 +21,7 @@ function App() {
       // once: true,
       delay: 500
     });
-  })
+  }, [])
 
   return (
     <div>

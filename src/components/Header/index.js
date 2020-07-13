@@ -57,7 +57,7 @@ export default class Header extends Component {
                                         <NavLink
                                             exact
                                             to='/'
-                                            onClick={this.closeMenu}
+                                            onClick={this.handleClick}
                                         >
                                             Home
                                         </NavLink>
@@ -66,7 +66,7 @@ export default class Header extends Component {
                                         <NavLink
                                             exact
                                             to='/work'
-                                            onClick={this.closeMenu}
+                                            onClick={this.handleClick}
                                         >
                                             Work
                                         </NavLink>
@@ -75,7 +75,7 @@ export default class Header extends Component {
                                         <NavLink
                                             exact
                                             to='/about'
-                                            onClick={this.closeMenu}
+                                            onClick={this.handleClick}
                                         >
                                             About
                                         </NavLink>
@@ -84,7 +84,7 @@ export default class Header extends Component {
                                         <NavLink
                                             exact
                                             to='contact'
-                                            onClick={this.closeMenu}
+                                            onClick={this.handleClick}
                                         >
                                             Contact
                                         </NavLink>
