@@ -41,12 +41,6 @@ body {
         &:hover {
             text-decoration: none !important;
         }
-
-        // &:focus {
-        //     outline: 1.5px solid $clr-accent;
-        //     // border: 1.5px solid $clr-accent;
-        //     box-shadow: 0 0 3px $clr-accent;
-        // }
     }
 }
 
@@ -59,14 +53,6 @@ body {
     .site-content {
         flex: 1;
     }
-
-    // button {
-    //     &:focus {
-    //         outline: none !important;
-    //         border: 1.5px solid $clr-accent;
-    //         box-shadow: 0 0 3px $clr-accent;
-    //     }
-    // }
 }
 
 a {
