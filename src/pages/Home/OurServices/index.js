@@ -6,7 +6,6 @@ import iphoneX from '../../../images/home/iphone-x.png';
 
 import './styles.scss';
 
-
 const OurServices = () => {
     return (
         <section id='our-services' className='our-services'>
