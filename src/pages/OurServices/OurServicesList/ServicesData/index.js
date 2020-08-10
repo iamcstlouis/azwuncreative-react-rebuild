@@ -1,8 +1,8 @@
-import uiUxDesignImage from '../../../../../images/home/icn_ux-ui_2.svg'
-import webDesignImage from '../../../../../images/home/icn_web-design_2.svg'
-import webDevImage from '../../../../../images/home/icn_web-dev_2.svg'
-import contentWritingImage from '../../../../../images/home/icn_content-writing_2.png'
-import maintenanceImage from '../../../../../images/home/icn_maintenance.png'
+import uiUxDesignImage from '../../../../images/home/icn_ux-ui_2.svg'
+import webDesignImage from '../../../../images/home/icn_web-design_2.svg'
+import webDevImage from '../../../../images/home/icn_web-dev_2.svg'
+import contentWritingImage from '../../../../images/home/icn_content-writing_2.png'
+import maintenanceImage from '../../../../images/home/icn_maintenance.png'
 
 const OurServicesData = {
     servicesGroup1: [

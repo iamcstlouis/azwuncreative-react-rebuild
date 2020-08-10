@@ -1,7 +1,7 @@
 import React from 'react';
 import HomeHero from './HomeHero';
 import WhatWeDo from './WhatWeDo';
-import OurServices from './OurServices';
+// import OurServices from './OurServices';
 import OurValues from './OurValues';
 import OurApproach from './OurApproach';
 
@@ -18,7 +18,7 @@ const Homepage = () => {
 
             <HomeHero />
             <WhatWeDo />
-            <OurServices />
+            {/* <OurServices /> */}
             <OurValues />
             <OurApproach />
         </section>
