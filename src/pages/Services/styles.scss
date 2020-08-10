@@ -1,20 +1,11 @@
 .our-services {
-    margin-top: 4rem;
-
-    @media screen and (min-width: 1024px) {
-        margin-top: 7rem;
-
-        &:before {
-            content: "";
-            display: block;
-            height: 2px;
-            width: 70%;
-            margin: 0 auto;
-            background: #DDD;
-        }
-    }
 
     .container {
+
+        @media screen and (min-width: 1280px) {
+            padding: 5rem;
+        }
+
         .content-wrapper {
             width: 85%;
             margin: 0 auto;

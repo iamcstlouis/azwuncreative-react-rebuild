@@ -8,7 +8,7 @@ import './styles.scss';
 
 const OurServices = () => {
     return (
-        <section id='our-services' className='our-services'>
+        <section id='our-services' className='our-services under-nav'>
             <div className='container'>
                 <div className='content-wrapper'>
                     <h1 data-aos='fade-right'>
