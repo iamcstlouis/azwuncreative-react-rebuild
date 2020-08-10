@@ -1,4 +1,4 @@
-import React, { Component} from 'react'
+import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
 import { NavLink } from 'react-router-dom';
 
@@ -84,6 +84,15 @@ export default class Header extends Component {
                                     <li>
                                         <NavLink
                                             exact
+                                            to='/OurServices'
+                                            onClick={this.handleClick}
+                                        >
+                                            Services
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            exact
                                             to='contact'
                                             onClick={this.handleClick}
                                         >
@@ -117,6 +126,13 @@ export default class Header extends Component {
                                         exact
                                         to='/about'>
                                         About
+                                </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink
+                                        exact
+                                        to='/OurServices'>
+                                        Services
                                 </NavLink>
                                 </li>
                                 <li>
