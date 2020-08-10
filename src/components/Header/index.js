@@ -84,7 +84,7 @@ export default class Header extends Component {
                                     <li>
                                         <NavLink
                                             exact
-                                            to='/OurServices'
+                                            to='/Services'
                                             onClick={this.handleClick}
                                         >
                                             Services
@@ -131,7 +131,7 @@ export default class Header extends Component {
                                 <li>
                                     <NavLink
                                         exact
-                                        to='/OurServices'>
+                                        to='/Services'>
                                         Services
                                 </NavLink>
                                 </li>

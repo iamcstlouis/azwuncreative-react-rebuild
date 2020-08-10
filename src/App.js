@@ -11,7 +11,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Homepage from './pages/Home'
 import Work from './pages/Work';
 import About from './pages/About';
-import Services from './pages/OurServices';
+import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
@@ -32,7 +32,7 @@ function App() {
         <Route exact path='/' component={Homepage} />
         <Route path='/about' component={About} />
         <Route path='/work' component={Work} />
-        <Route path='/OurServices' component={Services} />
+        <Route path='/Services' component={Services} />
         <Route path='/contact' component={Contact} />
       </Switch>
       <Footer />
